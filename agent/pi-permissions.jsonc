@@ -1,0 +1,13 @@
+{
+  "defaultPolicy": {
+    "tools": "ask",
+    "bash": "allow",
+    "mcp": "ask",
+    "skills": "ask",
+    "special": "ask"
+  },
+  "bash": {
+    "git commit": "ask",
+    "git branch": "ask"
+  }
+}
