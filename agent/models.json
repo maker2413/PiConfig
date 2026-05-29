@@ -1,0 +1,20 @@
+{
+  "providers": {
+    "opencode-go": {
+      "modelOverrides": {
+        "kimi-k2.6": {
+          "reasoning": false,
+          "compat": {
+            "maxTokensField": "max_tokens"
+          }
+        },
+        "kimi-k2.5": {
+          "reasoning": false,
+          "compat": {
+            "maxTokensField": "max_tokens"
+          }
+        }
+      }
+    }
+  }
+}
