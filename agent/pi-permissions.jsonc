@@ -1,13 +1,41 @@
 {
   "defaultPolicy": {
     "tools": "ask",
-    "bash": "allow",
+    "bash": "ask",
     "mcp": "ask",
     "skills": "ask",
     "special": "ask"
   },
+  "tools": {
+    "read": "allow",
+    "find": "allow",
+    "grep": "allow",
+    "ls": "allow"
+  },
   "bash": {
+    "git status": "allow",
+    "git log": "allow",
+    "git diff": "allow",
+    "git show": "allow",
+    "*git commit*": "ask",
+    "*git push*": "ask",
+    "*git rebase*": "ask",
+    "*git reset*": "ask",
+    "*git merge*": "ask",
+    "*git cherry-pick*": "ask",
+    "*git revert*": "ask",
+    "*git -c*push*": "ask",
+    "*git -c*commit*": "ask",
+    "*git -C*push*": "ask",
+    "*git -C*commit*": "ask",
+    "*gh *": "ask",
     "git commit": "ask",
-    "git branch": "ask"
+    "git push": "ask",
+    "git rebase": "ask",
+    "git reset": "ask",
+    "git merge": "ask",
+    "git cherry-pick": "ask",
+    "git revert": "ask",
+    "gh": "ask"
   }
 }
