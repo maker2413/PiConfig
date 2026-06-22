@@ -6,6 +6,9 @@
     "skills": "ask",
     "special": "ask"
   },
+  "special": {
+    "external_directory": "allow"
+  },
   "tools": {
     "read": "allow",
     "find": "allow",
