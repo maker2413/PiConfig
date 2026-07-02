@@ -1,10 +1,11 @@
 {
-  "lastChangelogVersion": "0.80.2",
+  "lastChangelogVersion": "0.80.3",
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.5",
-  "defaultThinkingLevel": "high",
+  "defaultThinkingLevel": "xhigh",
   "packages": [
     "npm:pi-permission-system"
   ],
-  "theme": "dark"
+  "theme": "dark",
+  "hideThinkingBlock": false
 }
